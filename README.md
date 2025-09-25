@@ -70,27 +70,30 @@ python -m venv venv
 
 # Install dependencies
 pip install -r requirements.txt
+```
 🚀 Usage
 Open the notebook or script:
 
-bash
-Copy code
+
+```bash
 jupyter notebook exam_prediction.ipynb
 Train and evaluate models.
 
 Visualize relationships between features and exam scores.
 
 Test predictions on new student data.
+```
 
 🗂️ Project Structure
-kotlin
-Copy code
+``` kotlin
+
 exam_perf_predic./
 │── data/
 │   └── exam_dataset.csv
 │── exam_prediction.ipynb
 │── requirements.txt
 └── README.md
+```
 🛠️ Dependencies
 Package	Purpose
 pandas	Data analysis
